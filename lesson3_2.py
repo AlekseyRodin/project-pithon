@@ -1,6 +1,6 @@
 action = input('выберете операцию (+, -, *, /) ')
-num_a = int(input("Введите число А "))
-num_b = int(input("Введите число В "))
+num_a = int(input("Введите первое число "))
+num_b = int(input("Введите второе число "))
 
 if action == "+":
 	print(num_a, "+", num_b, "=", num_a + num_b)
