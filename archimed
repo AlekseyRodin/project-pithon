@@ -1,4 +1,6 @@
 for line in range(1, 10):
 	for col in range(1, 10):
+
 		print(col * line, end = "	")
 	print()
+	print(float(line))
